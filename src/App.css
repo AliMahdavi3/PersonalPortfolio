@@ -1,0 +1,259 @@
+body {
+  background-image: url(./assets/image/pexels-cottonbro-5483077.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url(./assets/font/Vazirmatn-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "myfont1";
+  src: url(./assets/font/RubikDirt-Regular.ttf);
+}
+@font-face {
+  font-family: "myfont2";
+  src: url(./assets/font/Righteous-Regular.ttf);
+}
+@font-face {
+  font-family: "myfont3";
+  src: url(./assets/font/Anton-Regular.ttf);
+}
+
+* {
+  font-family: "myfont";
+}
+
+.icons {
+  position: fixed;
+  font-size: 30px;
+  margin-top: 280px;
+  margin-right: -150px;
+}
+.icons1 {
+  position: fixed;
+  font-size: 30px;
+  margin-top: 340px;
+  margin-right: -131px;
+}
+.icons2 {
+  position: fixed;
+  font-size: 30px;
+  margin-top: 400px;
+  margin-right: -165px;
+}
+.icons3 {
+  position: fixed;
+  font-size: 30px;
+  margin-top: 460px;
+  margin-right: -175px;
+}
+
+.icons:hover,
+.icons1:hover,
+.icons2:hover,
+.icons3:hover {
+  margin-right: -30px;
+  transition: 0.5s;
+}
+
+.icons a,
+.icons1 a,
+.icons2 a,
+.icons3 a {
+  text-decoration: none;
+}
+
+.icons-100 {
+  position: absolute;
+}
+
+.font-3 {
+  font-family: "myfont3";
+  font-style: italic;
+  color: cornflowerblue;
+  text-shadow: 5px 5px 10px #000;
+}
+
+.font-333 {
+  color: rgb(10, 54, 136);
+  font-weight: bold;
+  font-family: "myfont2";
+  text-shadow: 5px 5px 10px #000;
+}
+
+.mobile-nav li a {
+  padding: 15px;
+  color: rgb(101, 179, 136);
+  transition: color 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.mobile-nav li a:hover {
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 20px;
+  border-radius: 10px;
+}
+
+.sm-nav li a {
+  padding: 25px;
+  color: rgb(15, 209, 151);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, box-shadow 0.1s ease-in-out;
+  border-radius: 5px;
+  font-family: "myfont2";
+  margin: 10px;
+}
+
+.sm-nav li a:hover {
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 20px;
+  border-radius: 5px;
+}
+
+.main {
+  margin-bottom: 75px;
+}
+
+.main-p-text {
+  color: rgb(133, 21, 21);
+  font-family: "myfont2";
+  font-size: 50px;
+}
+.main-p-text-1 {
+  color: rgb(161, 69, 7);
+  font-family: "myfont2";
+  font-size: 35px;
+}
+
+.paragraf-main {
+  font-size: 30px;
+  font-family: "myfont1";
+  font-style: oblique;
+  color: rgb(151, 151, 151);
+}
+
+.header {
+  background-image: linear-gradient(120deg, #212122 0%, #838d96 100%);
+  height: 12vh;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 20px 30px 40px;
+}
+
+.info-main {
+  color: rgb(39, 38, 38);
+  font-family: "myfont3";
+  text-shadow: 10px 10px 20px;
+}
+
+.btn-project {
+  border: none;
+  box-shadow: 15px 15px 40px;
+  border-radius: 10px;
+  background-color: #b8bbbe;
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+}
+.btn-project:hover {
+  color: #000;
+}
+
+.project-img img {
+  border: 10px solid #fff;
+  border-radius: 15px;
+  box-shadow: 15px 15px 40px #000;
+  width: 50%;
+  height: 50%;
+}
+.project-img img:hover {
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+
+.info-p {
+  font-size: 20px;
+  text-shadow: 5px 5px 10px #000000;
+  font-family: "myfont";
+}
+
+.info-p span {
+  color: rgb(29, 209, 185);
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.logo-content {
+  width: 10%;
+  margin: auto 10px;
+}
+
+.about {
+  margin-top: 70vh;
+}
+
+.img {
+  width: 40vw;
+  height: 20vh;
+  box-shadow: 5px 20px 40px #000;
+}
+
+#info {
+  margin-top: 800px;
+}
+
+.contact2 {
+  width: 50px;
+}
+
+.footer {
+  width: 100%;
+  height: 15vh;
+  background-color: rgba(23, 23, 24, 0.9);
+}
+
+.footer-paragraf {
+  color: coral;
+  font-size: 30px;
+}
+
+.paragraf {
+  font-family: "myfont1";
+}
+
+.main-text {
+  color: rgb(36, 196, 121);
+  font-family: "myfont2";
+  text-shadow: 5px 5px 10px #000;
+}
+
+.font-text {
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.content-style {
+  margin-top: 100px;
+}
+
+.footer-100 {
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-paragraf {
+    display: none;
+  }
+
+  .footer-100 {
+    justify-content: center;
+  }
+  .font-text {
+    font-size: 40px;
+    padding-top: 70px;
+  }
+}
